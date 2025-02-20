@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h4>What is the capital of France?</h4>
+        <ul class="choices">
+            <li>
+                <label><input type="radio" id="opt1" name="question" value="London" /><span>London</span></label>
+            </li>
+            <li>
+                <label><input type="radio" id="opt2" name="question" value="Rome" /><span>Rome</span></label>
+            </li>
+            <li>
+                <label><input type="radio" id="opt3" name="question" value="Paris" /><span>Paris</span></label>
+            </li>
+            <li>
+                <label><input type="radio" id="opt4" name="question" value="Tokyo" /><span>Tokyo</span></label>
+            </li>
+        </ul>
+
+        <button class="view-results" onclick="checkAns()">Check answer</button>
+        <span id="myresults" class="my-results">My result will appear here</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
